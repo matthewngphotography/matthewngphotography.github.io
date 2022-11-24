@@ -243,6 +243,13 @@ h4 { font-size: 16px; margin-bottom: 1em; }
   padding-left: 345px!important;
 }
 
+.column4 {
+  float: left;
+  width: 400px;
+  padding-left: 0px!important;
+}
+
+
 .zoom {
   padding: 0px;
   transition: transform 5s; /* Animation */
