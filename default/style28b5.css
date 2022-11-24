@@ -228,6 +228,7 @@ h4 { font-size: 16px; margin-bottom: 1em; }
 #exhibit { margin: 20px 0 0 33%; }
 #exhibit1 {
     margin: 0px 0 0 6%;
+    min-width: 2000px!important;
 }
 
 .column {
@@ -239,9 +240,20 @@ h4 { font-size: 16px; margin-bottom: 1em; }
 .column3 {
   float: left;
   width: 400px;
-  padding-left: 155px!important;
+  padding-left: 345px!important;
 }
 
+.zoom {
+  padding: 0px;
+  transition: transform 5s; /* Animation */
+  width: 700px;
+  height: auto;
+  margin: 0 0;
+}
+
+.zoom:hover {
+  transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
 
 /* Clear floats after the columns */
 .row:after {
